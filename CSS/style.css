@@ -1,0 +1,266 @@
+@font-face {
+  font-family: AudreyBold;
+  src: url("C:/Users/fgresbrand.D3S/Documents/My Web Sites/Pap Webpage/Font/Audrey/Audrey-Bold.otf");
+}
+
+@font-face {
+  font-family: AudreyNormal;
+  src: url("C:/Users/fgresbrand.D3S/Documents/My Web Sites/Pap Webpage/Font/Audrey/Audrey-Normal.otf");
+}
+
+@font-face {
+  font-family: Simplifica;
+  src: url("C:/Users/fgresbrand.D3S/Documents/My Web Sites/Pap Webpage/Font/Simplifica/Simplifica Typeface.ttf");
+}
+
+html, body {
+  text-align: center;
+  color:rgb(22, 18, 31);
+  background-color: #bfd0ea;
+  font-family: "Joan", serif;
+  margin: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 7% 5%;
+  color: #2155CD;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Simplifica;
+  font-size: 1.8rem;
+}
+
+.bg-image {
+  background-image: url('C:/Users/fgresbrand.D3S/Documents/My Web Sites/Pap Webpage/Images/running-track.jpg');
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  font-family: AudreyBold;
+  text-transform: uppercase;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+}
+
+.bg-subtext {
+  font-family: AudreyNormal;
+  font-weight:lighter;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Navigation menue*/
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  background-color: white;
+  z-index: 3;
+}
+
+.navbar a {
+  color: #f2f2f2;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #2155CD;
+  font-family: Simplifica;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.logo {
+  float: left;
+}
+
+.navbar .logo {
+  margin: 0;
+  color: #2155CD;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+}
+
+.logo p:hover {
+  color: white;
+}
+
+.navbar a:active {
+  background-color: #0AA1DD;
+  color: white;
+}
+
+.navbar a:hover {
+  background-color: #2155CD;
+  color: white;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  #links {
+    display: none;
+  }
+  /*
+  .navbar a {
+    display: block;
+  }
+  */
+  .navbar .icon {
+    display: block;
+    float: right;
+  }
+  .videoRiezlern {
+    width: 480px;
+    height: 270px;
+  }
+  .table {
+    width: 70%;
+  }
+}
+
+#ueber-mich {
+  padding: 4% 20% 10%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.container p {
+  padding: 3%;
+  width: 70%;
+  line-height: 1.5;
+}
+
+.eilertBild {
+  border-radius: 5%;
+  border: 2px solid grey;
+  width: 20%;
+  margin: 5% 5%;
+}
+
+/* Über mich */
+
+#leichtathletik {
+  padding: 4% 5% 2%;
+  background-color: rgba(25, 90, 127, 0.489);
+}
+
+#leichtathletik h2 {
+  color: whitesmoke;
+}
+
+#leichtathletik table {
+  color: whitesmoke;
+}
+
+/* Table Styles */
+
+.table {
+  border: 2px solid grey;
+  padding: 1%;
+  margin-top: 2%;
+  text-align: left;
+}
+
+.table th {
+  padding: 10px;
+  background-color: #2155CD;
+  color: rgba(245, 245, 245, 0.89);
+}
+
+.table td {
+  padding: 10px;
+}
+
+.table tr:hover {
+  background-color: #0AA1DD;
+}
+
+/* Carousel */
+
+.carousel {
+  margin: 7% 0 7%;
+}
+
+.carousel-img {
+  height: 400px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .grid {
+      margin: 10% auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      place-items: center;    
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .bg-text {
+    font-size: 0.8rem;
+    overflow: hidden;
+    width: 60%;
+  }
+  .bg-text p {
+    font-size: 0.6rem;
+  }
+}
+
+#basketball {
+  padding: 4% 5% 2%;
+  margin-bottom: 7%;
+}
+
+#ski {
+  padding: 4% 5% 15%;
+  background-color: rgba(25, 90, 127, 0.489);
+
+}
+
+#ski h2 {
+  color: whitesmoke;
+  margin-bottom: 4%;
+}
+
+
