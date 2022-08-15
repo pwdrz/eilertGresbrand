@@ -1,16 +1,16 @@
 @font-face {
   font-family: AudreyBold;
-  src: url("../Font/Audrey/Audrey-Bold.otf");
+  src: url(Font/Audrey/Audrey-Bold.otf);
 } 
 
 @font-face {
   font-family: AudreyNormal;
-  src: url("../Font/Audrey/Audrey-Normal.otf");
+  src: url(Font/Audrey/Audrey-Normal.otf);
 }
 
 @font-face {
   font-family: Simplifica;
-  src: url("../Font/Simplifica/Simplifica Typeface.ttf");
+  src: url(Font/Simplifica/Simplifica Typeface.ttf);
 }
 
 html, body {
@@ -41,7 +41,7 @@ p {
 }
 
 .bg-image {
-  background-image: url("Images/running-track.jpg");
+  background-image: url(Images/running-track.jpg);
   filter: blur(8px);
   -webkit-filter: blur(8px);
   height: 100%;
