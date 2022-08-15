@@ -41,7 +41,7 @@ p {
 }
 
 .bg-image {
-  background-image: url("https://github.com/pwdrz/eilertGresbrand/blob/cae833193bcf0a7dd9a618ccbab5413e729f2761/Images/running-track.jpg");
+  background-image: url("Images/running-track.jpg");
   filter: blur(8px);
   -webkit-filter: blur(8px);
   height: 100%;
