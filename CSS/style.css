@@ -41,7 +41,7 @@ p {
 }
 
 .bg-image {
-  background-image: url("/Images/running-track.jpg");
+  background-image: url("/eilertGresbrand/Images/running-track.jpg");
   filter: blur(8px);
   -webkit-filter: blur(8px);
   height: 100%;
