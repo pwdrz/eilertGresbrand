@@ -3,6 +3,7 @@
   src: url("eilertGresbrand/Font/Audrey/Audrey-Bold.otf");
 } 
 
+
 @font-face {
   font-family: AudreyNormal;
   src: url("eilertGresbrand/Font/Audrey/Audrey-Normal.otf");
@@ -41,7 +42,7 @@ p {
 }
 
 .bg-image {
-  background-image: url("/eilertGresbrand/Images/running-track.jpg");
+  background-image: url("https://github.com/pwdrz/eilertGresbrand/blob/cae833193bcf0a7dd9a618ccbab5413e729f2761/Images/running-track.jpg");
   filter: blur(8px);
   -webkit-filter: blur(8px);
   height: 100%;
