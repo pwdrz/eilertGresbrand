@@ -1,16 +1,16 @@
 @font-face {
   font-family: AudreyBold;
-  src: url("Font/Audrey/Audrey-Bold.otf");
+  src: url(__dirname + "/Font/Audrey/Audrey-Bold.otf");
 }
 
 @font-face {
   font-family: AudreyNormal;
-  src: url("Font/Audrey/Audrey-Normal.otf");
+  src: url(__dirname + "/Font/Audrey/Audrey-Normal.otf");
 }
 
 @font-face {
   font-family: Simplifica;
-  src: url("Font/Simplifica/Simplifica Typeface.ttf");
+  src: url(__dirname + "/Font/Simplifica/Simplifica Typeface.ttf");
 }
 
 html, body {
