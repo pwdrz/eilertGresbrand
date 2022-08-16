@@ -1,7 +1,7 @@
 @font-face {
   font-family: AudreyBold;
   src: url("../Font/Audrey/Audrey-Bold.otf");
-} 
+}
 
 @font-face {
   font-family: AudreyNormal;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: Simplifica;
-  src: url("../Font/SIMPLIFICA/SIMPLIFICA Typeface.ttf") ;
+  src: url("../Font/Simplifica/Simplifica_Typeface.ttf");
 }
 
 html, body {
@@ -41,7 +41,7 @@ p {
 }
 
 .bg-image {
-  background-image: url(../Images/running-track.jpg?raw=true);
+  background-image: url('../Images/running-track.jpg');
   filter: blur(8px);
   -webkit-filter: blur(8px);
   height: 100%;
@@ -99,7 +99,8 @@ p {
 }
 
 .logo {
-  float: left;
+  float: right;
+  position: relative;
 }
 
 .navbar .logo {
@@ -131,11 +132,17 @@ p {
   #links {
     display: none;
   }
-  /*
+  
   .navbar a {
     display: block;
+    text-align: left;
+
   }
-  */
+
+  .icon {
+    float: right;
+  }
+  
   .navbar .icon {
     display: block;
     float: right;
@@ -147,6 +154,30 @@ p {
   .table {
     width: 70%;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .videoRiezlern {
+    width: 240px;
+    height: 160px;
+  }
+
+  .carousel-img {
+    height: 250px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  tr {
+    font-size: 0.5rem;
+  }
+  
 }
 
 #ueber-mich {
@@ -229,13 +260,13 @@ p {
       place-items: center;    
   }
 }
-
+/*
 @media only screen and (max-width: 600px) {
   img {
     max-width: 300px;
   }
 }
-
+*/
 @media only screen and (max-width: 800px) {
   .bg-text {
     font-size: 0.8rem;
