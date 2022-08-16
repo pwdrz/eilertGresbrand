@@ -1,16 +1,16 @@
 @font-face {
   font-family: AudreyBold;
-  src: url(Font/Audrey/Audrey-Bold.otf);
+  src: url(https://github.com/pwdrz/eilertGresbrand/blob/ba7dac640726b8d061e7a791d267c35fde84de7f/Font/Audrey/Audrey-Bold.otf);
 } 
 
 @font-face {
   font-family: AudreyNormal;
-  src: url(Font/Audrey/Audrey-Normal.otf);
+  src: url(https://github.com/pwdrz/eilertGresbrand/blob/ba7dac640726b8d061e7a791d267c35fde84de7f/Font/Audrey/Audrey-Normal.otf);
 }
 
 @font-face {
   font-family: Simplifica;
-  src: url(Font/Simplifica/Simplifica Typeface.ttf);
+  src: url(https://github.com/pwdrz/eilertGresbrand/blob/ba7dac640726b8d061e7a791d267c35fde84de7f/Font/SIMPLIFICA/SIMPLIFICA%20Typeface.ttf);
 }
 
 html, body {
